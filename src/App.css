@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-width: 0;
+  border: 1px solid #2f00ff;
+  margin: 2%;
+  
+}
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; /* Add this line */
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+* {
+  box-sizing: border-box;
+}

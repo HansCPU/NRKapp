@@ -1,0 +1,41 @@
+.news-square {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    background: #f0f0f0;
+}
+
+.news-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(14, 91, 255, 0.544);
+    padding: 8px;
+    border-radius: 0px;
+}
+
+.news-title {
+    height: 40%;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.nrknyheter {
+    width: 244px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
